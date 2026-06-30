@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - แบรี่</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: "Prompt", sans-serif;
+        }
+
+        body{
+            background: linear-gradient(135deg,#4facfe,#00c6fb);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:100vh;
+        }
+
+        .card{
+            width:380px;
+            background:#fff;
+            padding:35px;
+            border-radius:20px;
+            text-align:center;
+            box-shadow:0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .profile{
+            width:140px;
+            height:140px;
+            border-radius:50%;
+            object-fit:cover;
+            border:5px solid #4facfe;
+            margin-bottom:20px;
+        }
+
+        h1{
+            color:#222;
+            margin-bottom:10px;
+        }
+
+        .role{
+            color:#0d6efd;
+            font-size:20px;
+            font-weight:bold;
+            margin-bottom:15px;
+        }
+
+        .about{
+            color:#555;
+            line-height:1.7;
+            margin-bottom:25px;
+        }
+
+        .btn{
+            display:inline-block;
+            text-decoration:none;
+            background:#0d6efd;
+            color:white;
+            padding:12px 25px;
+            border-radius:30px;
+            transition:.3s;
+        }
+
+        .btn:hover{
+            background:#084298;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <!-- เปลี่ยนเป็นรูปของคุณ เช่น images/profile.jpg -->
+    <img src="https://via.placeholder.com/140" alt="Profile" class="profile">
+
+    <h1>สวัสดี 👋<br>ฉันชื่อ แบรี่</h1>
+
+    <p class="role">นักศึกษาวิศวกรรมคอมพิวเตอร์ ชั้นปีที่ 4</p>
+
+    <p class="about">
+        ยินดีต้อนรับสู่เว็บไซต์แรกของฉันบน GitHub Pages <br><br>
+        ฉันสนใจการพัฒนาเว็บไซต์ การเขียนโปรแกรม และเทคโนโลยีใหม่ ๆ
+        เวลาว่างชอบพบปะเพื่อน ๆ และชอบดื่มเบียร์มากๆหาตังค์กินเบียร์ 🍺
+    </p>
+
+    <a href="https://github.com/yourusername" class="btn">
+        GitHub ของฉัน
+    </a>
+
+</div>
+
+</body>
+</html>
